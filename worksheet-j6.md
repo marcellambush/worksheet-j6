@@ -42,7 +42,7 @@ public class AnimalFootRace {
     }
 }
 ```
-My edits worked because I had hare start before the rest of the animals, and I had the thread wait using the join(int) method.
+My edits worked because I had hare start before the rest of the animals, and I had the thread wait using the join(int) method. The output is the fact that hare finished most of its laps way before the other animals start.
 
 **Question 9:**  
 ``` Java
@@ -60,6 +60,7 @@ public class AnimalFootRace {
     }
 }
 ```
+The output of this is a cluster of animals and their laps similar to question 7 - however since adding a new animal there is even more.
 
 **Question 10:**
 Yes it is possible to create two singleton cases - this can be done if the methods are callled at precisely the same time.  
