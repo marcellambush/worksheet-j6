@@ -42,6 +42,7 @@ public class AnimalFootRace {
     }
 }
 ```
+My edits worked because I had hare start before the rest of the animals, and I had the thread wait using the join(int) method.
 
 **Question 9:**  
 ``` Java
